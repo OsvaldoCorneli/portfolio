@@ -9,7 +9,7 @@
   }
 
 .contenedor_hello{
-    margin: 8px 16px;
+    margin: 56px 16px 0 16px;
     display: flex;
     flex-direction: column;
     

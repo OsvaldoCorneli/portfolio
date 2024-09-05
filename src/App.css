@@ -6,7 +6,7 @@ body{
 
 }
 
-/* .grillas{
+.grillas{
     display: flex;
     justify-content: center;
     position: fixed;
@@ -26,4 +26,4 @@ body{
     background-color: rgba(114, 38, 185, 0.2);
     margin: 0 8px 0 8px;
     width: 22%;
-} */
+}
