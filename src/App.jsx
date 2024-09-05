@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-
 import PopUp from "./components/PopUp/PopUp"
 import Hello from "./components/Hello/Hello"
 import Proyectos from './components/Proyectos/Proyectos'
 import Educacion from './components/Educacion/Educacion'
+import Contacto from './components/Contacto/contacto'
+import ScrollBtn from './components/ScrollBtn/ScrollBtn'
+
 
 function App() {
 
@@ -13,7 +15,6 @@ function App() {
   function handlerPublicity(){
 
     setTimeout(()=>{
-      console.log("ingresa")
       setIsHidden(true)
     },[300000])
 
@@ -21,7 +22,6 @@ function App() {
   }
 
   useEffect(()=>{
-    console.log("ingresa al usEfect")
     handlerPublicity()
   },[])
 
@@ -37,7 +37,8 @@ function App() {
     <Hello/>
     <Proyectos/>
     <Educacion/>
-
+    <Contacto/>
+    <ScrollBtn/>
 
     {ishidden ? <PopUp handlerPublicity={handlerPublicity} setIsHidden={setIsHidden}/> : ""}
     </>

@@ -18,7 +18,7 @@ export default function CardEducation(props){
                 imagenes.length > 0 
                 ? imagenes.map((logo)=>(
                     props.id == logo.id
-                    ? <img src={logo.imagen} alt="" />
+                    ? <img key={logo.id} src={logo.imagen} alt={logo.name} />
                     : ""
                 )) 
                 : ""

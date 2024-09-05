@@ -13,7 +13,7 @@ export default  function Proyectos(){
             setDatos(data)
         }
     },[])
-    console.log(datos)
+
     return(
         <div className={style.contenedor_proyects}>
         

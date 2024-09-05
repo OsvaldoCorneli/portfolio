@@ -9,7 +9,6 @@
     color: var(--tertiary-color);
     border-radius: 5px;
     box-shadow: 1px 1px 3px 1px var(--secondary-color) ;
-    height: 24vh;
     justify-content: space-around;
 }
 

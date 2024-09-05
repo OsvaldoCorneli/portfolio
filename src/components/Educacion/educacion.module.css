@@ -1,7 +1,11 @@
 .contenedor_educacion{
 
     color: var(--titulos-color);
-    margin: 32px 16px ;
+    margin: 64px 16px ;
 
+}
 
+.contenedor_cards{
+    display: flex;
+    flex-direction: column-reverse;
 }

@@ -18,6 +18,8 @@ export default function Educacion() {
 
         <div className={style.contenedor_educacion}>
             <h3>Educacion</h3>
+
+            <div className={style.contenedor_cards}>
             {
 
                 datos.length > 0
@@ -32,6 +34,7 @@ export default function Educacion() {
                     ))
                     : ""
             }
+            </div>
         </div>
 
 
