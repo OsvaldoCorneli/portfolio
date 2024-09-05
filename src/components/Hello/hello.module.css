@@ -1,0 +1,32 @@
+:root{
+
+    --primary-color: #092532; /* Fondo principal */
+    --secondary-color: #89C9B8;
+    --secondary-color-rgb: 137, 201, 184; /* Botones o tarjetas */
+    --tertiary-color: #C7E2B2; /* Detalles, bordes o íconos */
+    --quaternary-color: #E1FFC2; /* Texto principal o enlaces */
+   
+  }
+
+.contenedor_hello{
+    margin: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hellomessage{
+    color: white;
+    font-family: 0.5rem;
+}
+
+.firstTittle{
+margin: 16px 0 8px 0;
+color: white;
+
+}
+
+.contenedor_hello p{
+    margin: 8px 0;
+    letter-spacing: 1px;
+}
