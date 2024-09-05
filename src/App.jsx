@@ -10,7 +10,7 @@ import ScrollBtn from './components/ScrollBtn/ScrollBtn'
 
 function App() {
 
-  const [ishidden , setIsHidden] = useState(false)
+  const [ishidden , setIsHidden] = useState(true)
 
   function handlerPublicity(){
 
