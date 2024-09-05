@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "tittle": "Hypertext Markup Language - HTML",
+      "description": "Utilizo HTML para estructurar el contenido de mis páginas web de manera semántica, lo que mejora la accesibilidad y el SEO."
+    },
+    {
+        "id": 2,
+        "tittle": "Cascading Style Sheets - CSS",
+        "description": "Empleo CSS para diseñar y estilizar mis páginas web, garantizando una presentación atractiva y coherente en diferentes dispositivos y tamaños de pantalla. Hago uso de herramientas avanzadas como Flexbox y Grid Layout para crear diseños flexibles y complejos con facilidad, lo que me permite organizar y distribuir elementos de manera eficiente en la página."
+    },
+    {
+        "id": 3,
+        "tittle": "JavaScript",
+        "description": "Hago uso de JavaScript para añadir interactividad y dinamismo a mis sitios web, como formularios con validación en tiempo real o efectos de animación."
+    },
+    {
+        "id": 4,
+        "tittle": "Bootstrap",
+        "description": "Utilizo Bootstrap para agilizar el desarrollo de mis proyectos web, aprovechando su amplia gama de componentes y estilos predefinidos."
+    },
+    {
+        "id": 5,
+        "tittle": "React Bootstrap",
+        "description": "Integro Bootstrap con React para crear interfaces modernas y receptivas de manera eficiente, aprovechando las ventajas de ambos frameworks."
+
+        
+    },{
+        "id": 6,
+        "tittle": "React - JavaScript library",
+        "description": "Empleo React para construir interfaces de usuario reactivas y modulares, facilitando el desarrollo de aplicaciones web complejas y de alto rendimiento."
+    },{
+        "id": 7,
+        "tittle": "Embedded JavaScript - EJS",
+        "description": " Utilizo EJS como motor de plantillas en mis aplicaciones web Node.js, lo que me permite generar dinámicamente el contenido HTML basado en datos del servidor."
+    },{
+        "id": 8,
+        "tittle": "Redux",
+        "description": "Implemento Redux en mis aplicaciones JavaScript para gestionar de manera eficiente el estado de la aplicación, facilitando el manejo de datos complejos y la comunicación entre componentes."
+    },{
+        "id": 9,
+        "tittle": "Vite",
+        "description": "Aprovecho Vite como herramienta de desarrollo rápida para mis proyectos de JavaScript, beneficiándome de su capacidad para construir y actualizar el código de manera eficiente en tiempo real."
+    },{
+        "id": 10,
+        "tittle": "Node.js",
+        "description": "Utilizo Node.js para desarrollar aplicaciones del lado del servidor, aprovechando su capacidad para ejecutar JavaScript fuera del navegador y construir servicios web escalables."
+    },{
+        "id": 11,
+        "tittle": "Express.js",
+        "description": "Empleo Express.js como framework de Node.js para crear API RESTful y aplicaciones web, simplificando el enrutamiento, el manejo de solicitudes y la gestión de middleware."
+    },{
+        "id": 12,
+        "tittle": "Sequelize.js",
+        "description": "Utilizo Sequelize.js como ORM en mis proyectos Node.js para interactuar con bases de datos relacionales de forma sencilla y segura, abstrayendo la complejidad del SQL."
+    },{
+        "id": 13,
+        "tittle": "PostgreSQL",
+        "description": "Empleo PostgreSQL como sistema de gestión de bases de datos relacional para almacenar y gestionar datos de manera segura y eficiente en mis aplicaciones web."
+    },{
+        "id": 14,
+        "tittle": "MySQL",
+        "description": "Utilizo MySQL como sistema de gestión de bases de datos relacional para aplicaciones web, aprovechando su velocidad y fiabilidad en entornos de producción."
+    },{
+        "id": 15,
+        "tittle": "Structured Query Language - SQL",
+        "description": "Utilizo SQL para realizar consultas y manipular datos en bases de datos relacionales, asegurando la integridad y consistencia de la información almacenada. Manejo comandos de consultas básicas como SELECT, INSERT, UPDATE y DELETE para recuperar, añadir, actualizar y eliminar datos según sea necesario."
+    }
+  ]

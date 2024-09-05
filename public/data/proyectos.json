@@ -1,0 +1,37 @@
+[   
+    {   
+        "id": 1,
+        "tittle": "Proyecto FrontEnd",
+        "description": "Desarrollé un currículum online como proyecto evaluativo para el curso 'Primeros Pasos del Desarrollo FrontEnd'. Este proyecto me permitió aplicar mis conocimientos en HTML, CSS y JavaScript",
+        "url": "https://github.com/OsvaldoCorneli/proyectofinalfrontend"
+    },
+    {   
+        "id": 2,
+        "tittle": "Rick and Morty",
+        "description": "Proyecto Integrador del Bootcamp Soy Henry, desarrolle a lo largo del curso una aplicacion web de visualizacion de datos , fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
+        "url": "https://github.com/OsvaldoCorneli/rick_and_morty"
+    },
+    {   
+        "id": 3,
+        "tittle": "Proyecto individual Drivers",
+        "description": "Proyecto individual evaluativo del bootcamp Soy Henry, el cual representó la culminación de mi aprendizaje. desarrolle una aplicacion web de visualizacion de datos utilizando una variedad de tecnologías, incluyendo React, Redux, Sequelize y PostgreSQL.",
+        "url": "https://github.com/OsvaldoCorneli/PI-drivers"
+    },
+    {   
+        "id": 4,
+        "tittle": "CreVa Group",
+        "description": "Proyecto para la empresa Creva. Creamos una plataforma de servicios que se enfoca en potenciar las habilidades individuales. Colaboramos estrechamente con el equipo de Creva para su desarrollaro. El objetivo era impulsar el crecimiento personal y profesional de manera innovadora y efectiva.",
+        "url": "https://github.com/CrevaGroup",
+        "deploy": "https://creva.vercel.app/"
+    },
+    {   
+        "id": 5,
+        "tittle": "La tienda de maria",
+        "description": "Proyecto donde desarrollamos un E-commerce para 'La Tienda de María', enfocándonos en productos religiosos modernos y segmentando hacia la comunidad católica joven. Humanizamos la marca y aplicamos estrategias innovadoras para su éxito.",
+        "url": "https://github.com/OsvaldoCorneli/grupo_3_latiendademaria"
+    }
+   
+  
+    
+
+]

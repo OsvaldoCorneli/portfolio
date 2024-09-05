@@ -2,3 +2,14 @@
     color: white;
     margin: 32px 16px ;
 }
+
+.card_proyectos_contenedor{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.card_proyectos_contenedor a{
+    text-decoration: none;
+}
+

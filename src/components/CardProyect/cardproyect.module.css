@@ -1,0 +1,59 @@
+:root{
+
+    --primary-color: #092532; /* Fondo principal */
+    --secondary-color: #89C9B8;
+    --secondary-color-rgb: 137, 201, 184; /* Botones o tarjetas */
+    --tertiary-color: #C7E2B2; /* Detalles, bordes o íconos */
+    --quaternary-color: #E1FFC2; /* Texto principal o enlaces */
+   
+  }
+
+.contenedor_proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--secondary-color);
+    margin: 16px 0;
+    padding: 16px 8px;
+    color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px var(--tertiary-color) ;
+    height: 24vh;
+    justify-content: space-around;
+}
+
+.contenedor_proyectos h4{
+    margin: 0 0 16px 0;
+}
+
+.contenedor_proyectos p{
+    margin: 8px 0 0 0;
+}
+
+.iconos{
+    display: flex;
+    margin: 8px 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.iconos img{
+    position: relative;
+    width: 5%;
+    width: 24px;
+    margin: 8px 2px;
+    
+}
+
+@media(max-width: 380px){
+    .contenedor_proyectos{
+        height: 30%;
+    }
+    .iconos img{
+        width: 7%;
+        
+    }
+    
+}
