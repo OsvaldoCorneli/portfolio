@@ -1,5 +1,5 @@
 .contenedor_proyects{
-    color: white;
+    color: var(--titulos-color);
     margin: 32px 16px ;
 }
 

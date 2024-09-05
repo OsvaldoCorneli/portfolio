@@ -2,34 +2,61 @@
     {   
         "id": 1,
         "tittle": "Proyecto FrontEnd",
-        "description": "Desarrollé un currículum online como proyecto evaluativo para el curso 'Primeros Pasos del Desarrollo FrontEnd'. Este proyecto me permitió aplicar mis conocimientos en HTML, CSS y JavaScript",
-        "url": "https://github.com/OsvaldoCorneli/proyectofinalfrontend"
+        "description": "Desarrollo de un currículum digital con información estructurada sobre experiencia, habilidades y educación, optimizado para fácil navegación.",
+        "url": "https://github.com/OsvaldoCorneli/proyectofinalfrontend",
+        "icons": [5 , 2 , 6]
     },
     {   
         "id": 2,
         "tittle": "Rick and Morty",
-        "description": "Proyecto Integrador del Bootcamp Soy Henry, desarrolle a lo largo del curso una aplicacion web de visualizacion de datos , fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
-        "url": "https://github.com/OsvaldoCorneli/rick_and_morty"
+        "description": "Proyecto que muestra cartas de los personajes de la serie, permitiendo seleccionar y agregar tus favoritos a una lista personalizada.",
+        "url": "https://github.com/OsvaldoCorneli/rick_and_morty",
+        "icons": [11 , 12, 13, 9, 4]
     },
     {   
         "id": 3,
-        "tittle": "Proyecto individual Drivers",
-        "description": "Proyecto individual evaluativo del bootcamp Soy Henry, el cual representó la culminación de mi aprendizaje. desarrolle una aplicacion web de visualizacion de datos utilizando una variedad de tecnologías, incluyendo React, Redux, Sequelize y PostgreSQL.",
-        "url": "https://github.com/OsvaldoCorneli/PI-drivers"
+        "tittle": "Drivers",
+        "description": "Aplicación para buscar corredores de Fórmula 1, mostrando detalles de cada piloto y permitiendo agregar nuevos desde un formulario.",
+        "url": "https://github.com/OsvaldoCorneli/PI-drivers",
+        "icons": [11 , 12, 13, 9, 4]
     },
     {   
         "id": 4,
         "tittle": "CreVa Group",
-        "description": "Proyecto para la empresa Creva. Creamos una plataforma de servicios que se enfoca en potenciar las habilidades individuales. Colaboramos estrechamente con el equipo de Creva para su desarrollaro. El objetivo era impulsar el crecimiento personal y profesional de manera innovadora y efectiva.",
-        "url": "https://github.com/CrevaGroup",
-        "deploy": "https://creva.vercel.app/"
+        "description": "Plataforma de servicios para la empresa Creva, enfocada en el crecimiento personal y profesional de manera innovadora.",
+        "url": "https://creva.vercel.app/",
+        "icons": [11 , 12, 13, 9, 4, 15 ]
     },
     {   
         "id": 5,
+        "tittle": "Portfolio personal",
+        "description": "Mi primer portfolio, explorando y mostrando todo lo aprendido en el desarrollo web, reflejando mis habilidades y proyectos.",
+        "url": "https://osvaldocorneli.vercel.app/",
+        "icons": [11, 10 , 2 , 15 , 8]
+    },
+    {   
+        "id": 6,
         "tittle": "La tienda de maria",
-        "description": "Proyecto donde desarrollamos un E-commerce para 'La Tienda de María', enfocándonos en productos religiosos modernos y segmentando hacia la comunidad católica joven. Humanizamos la marca y aplicamos estrategias innovadoras para su éxito.",
-        "url": "https://github.com/OsvaldoCorneli/grupo_3_latiendademaria"
+        "description": "Ecommerce de productos religiosos, incluyendo artesanales e industriales, además de servicios parroquiales para una oferta completa.",
+        "url": "https://github.com/OsvaldoCorneli/grupo_3_latiendademaria",
+        "icons": [5 , 13, 7, 4, 3, 8]
+    },
+    {   
+        "id": 7,
+        "tittle": "Cine Argentino",
+        "description": "Página web que presenta información sobre el cine argentino, incluyendo detalles de películas, actores y directores",
+        "url": "https://osvaldocorneli.github.io/frontend-CaC-CineArgentino/",
+        "icons": [5 , 2 , 6, 1]
+    },
+    {   
+        "id": 8,
+        "tittle": "Guess Word",
+        "description": "Juego de adivinanza donde debes encontrar palabras de 5 letras, desafiando tus habilidades lingüísticas y de deducción.",
+        "url": "https://osvaldocorneli.github.io/wordsGame/",
+        "icons": [5 , 2 , 6]
     }
+
+
    
   
     

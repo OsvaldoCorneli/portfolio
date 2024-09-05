@@ -32,6 +32,7 @@ export default  function Proyectos(){
                 tittle={element.tittle}
                 description={element.description}
                 date={element.date}
+                icons={element.icons}
                 />
                 </a>
                 

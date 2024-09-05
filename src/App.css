@@ -2,16 +2,18 @@ body{
 
     display: flex;
     justify-content: center;
-    
+    width: 100%;
+    max-width: 540px ;
 
 }
 
-.grillas{
+/* .grillas{
     display: flex;
     justify-content: center;
     position: fixed;
     z-index: 1;
     width: 100%;
+    max-width: 540px;
     height: 100vh;
     padding: 8px 8px;
 }
@@ -26,4 +28,4 @@ body{
     background-color: rgba(114, 38, 185, 0.2);
     margin: 0 8px 0 8px;
     width: 22%;
-}
+} */

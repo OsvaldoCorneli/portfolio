@@ -1,26 +1,30 @@
 [
     {
         "id": 1,
+        "name": "ARGENTINA PROGRAMA 4.0",
+        "curso": "Programacion",
+        "time": "Sep 2022 - Nov 2022"
+    },
+    {
+        "id": 2,
+        "name": "SOY HENRY",
+        "curso": "Full Stack Developer - Node",
+        "time": "Julio 2023 - Nov 2023"
+    }, 
+    {
+        "id": 3,
+        "name": "DIGITAL HOUSE",
+        "curso": "Full Stack Developer - Node",
+        "time": "Ago 2023 - Abril 2024"
+    },
+    {
+        "id": 4,
         "name": "CODO A CODO",
         "curso": "Full Stack Developer - JAVA",
         "time": "Marzo 2024 -  En curso"
         
-    }, {
-        "id": 2,
-        "name": "DIGITAL HOUSE",
-        "curso": "Full Stack Developer - Node",
-        "time": "Ago 2023 - Abril 2024"
-    },{
-        "id": 3,
-        "name": "SOY HENRY",
-        "curso": "Full Stack Developer - Node",
-        "time": "Julio 2023 - Nov 2023"
-    },{
-        "id": 4,
-        "name": "ARGENTINA PROGRAMA 4.0",
-        "curso": "Programacion",
-        "time": "Sep 2022 - Nov 2022"
-    },{
+    },
+    {
         "id": 5,
         "name": "CODER HOUSE",
         "curso": "Diseño UX/UI",

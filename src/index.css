@@ -1,30 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
 
-  --var-primary-color: #092532;
-  /* Fondo principal */
-  --var-secondary-color: #89C9B8;
-  /* Botones o tarjetas */
-  --var-tertiary-color: #C7E2B2;
-  /* Detalles, bordes o íconos */
-  --var-quaternary-color: #E1FFC2;
-  /* Texto principal o enlaces */
-  --var-primary-font-family: "Roboto", sans-serif;
-  --var-primary-font-weight: 100;
+  --primary-color: #092532; /* Fondo principal */
+  --secondary-color: #89C9B8; /* Botones o tarjetas */
+  --tertiary-color: #C7E2B2; /* Detalles, bordes o íconos */
+  --quaternary-color: #E1FFC2; /* Texto principal o enlaces */
+  --primary-font-family: "Roboto", sans-serif;
+  --primary-font-weight: 100;
+  --titulos-color: rgb(218, 214, 214);
+  --secondary-color-rgb: 137, 201, 184; /* Botones o tarjetas */
 
+
+  display: flex;
+  justify-content: center;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--var-primary-font-family);
+  font-family: var(--primary-font-family);
 
 }
 
 body {
-  background-color: var(--var-primary-color);
-  color: var(--var-quaternary-color);
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
 }
 
 h2 {

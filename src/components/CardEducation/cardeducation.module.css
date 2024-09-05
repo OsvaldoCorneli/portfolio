@@ -1,0 +1,29 @@
+.card_contenedor_educacion{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    padding: 16px 8px;
+    margin: 16px 0;
+    border: 5px solid var(--titulos-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.contenedor_info{
+    width: 100%;
+}
+
+.contenedor_info h3{
+   
+    padding: 8px 0px;
+}
+
+.contenedor_imagen{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor_imagen img{
+    width: 87px;
+}
+

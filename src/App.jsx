@@ -4,6 +4,7 @@ import './App.css'
 import PopUp from "./components/PopUp/PopUp"
 import Hello from "./components/Hello/Hello"
 import Proyectos from './components/Proyectos/Proyectos'
+import Educacion from './components/Educacion/Educacion'
 
 function App() {
 
@@ -35,7 +36,9 @@ function App() {
     </div>
     <Hello/>
     <Proyectos/>
-    
+    <Educacion/>
+
+
     {ishidden ? <PopUp handlerPublicity={handlerPublicity} setIsHidden={setIsHidden}/> : ""}
     </>
 
