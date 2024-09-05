@@ -1,7 +1,8 @@
 import style from "./PopUp.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons';
-
+import CardPopUp from "../CardPopUp/CardPopUp";
+import data from "../../../public/data/colegas.json"
 
 function PopUp({ handlerPublicity, setIsHidden }) {
 
@@ -27,16 +28,28 @@ function PopUp({ handlerPublicity, setIsHidden }) {
                         los portfolios de algunos colegas talentosos. ¡Espero que encuentres
                         lo que necesitas!</p>
                 </div>
-                <div className={style.popcard}>
-                    <div className={style.popcard_info}>
-                    <h4>Osvaldo Corneli</h4>
-                    <h5>Full Stack Developer</h5>
-                    </div>
-                    <div className={style.popcard_btns}>
-                    <a href="#">INFORMACION</a>
-                    </div>
 
-                </div>
+                {
+                    data.length > 0 
+                    ? data.map((datos)=>(
+
+                        <CardPopUp 
+                        key={datos.id}
+                        name={datos.name}
+                        tittle={datos.tittle}
+                        linkedin={datos.linkedin}
+                        github={datos.github}
+                        portfolio={datos.portfolio}
+                        
+                        />
+
+
+                    ))
+                    : ""
+                }
+                
+                
+
                 <div className={style.popups_btn}>
                     <a className={style.btn_popup} onClick={handlerBtnNoMolestar}>No volver a mostrar</a>
                 </div>

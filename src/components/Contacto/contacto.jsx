@@ -17,7 +17,6 @@ export default function Contacto() {
                 <a href="https://www.linkedin.com/in/osvaldocorneli/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href="https://github.com/OsvaldoCorneli" target="_blank"><FontAwesomeIcon icon={faSquareGithub}  /></a>
                 <a href={mailtoLink} target="_blank"><FontAwesomeIcon icon={faSquareEnvelope}  /></a>
-                <a href=""><FontAwesomeIcon target="_blank" icon={faFileArrowDown}  /></a>  
             </div>
 
         </div>

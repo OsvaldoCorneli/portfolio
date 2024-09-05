@@ -54,6 +54,13 @@
         "description": "Juego de adivinanza donde debes encontrar palabras de 5 letras, desafiando tus habilidades lingüísticas y de deducción.",
         "url": "https://osvaldocorneli.github.io/wordsGame/",
         "icons": [5 , 2 , 6]
+    },
+    {   
+        "id": 9,
+        "tittle": "Encriptador de Texto",
+        "description": "Aplicación que encripta textos reemplazando las vocales, proporcionando una capa adicional de seguridad y privacidad en la comunicación.",
+        "url": "https://osvaldocorneli.github.io/encriptador_de_texto/",
+        "icons": [5 , 2 , 6]
     }
 
 

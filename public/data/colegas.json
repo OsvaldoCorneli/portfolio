@@ -1,0 +1,35 @@
+[
+    {   
+        "id": 1,
+        "name": "Ezequiel Antoine",
+        "tittle": "Desarrollador de Software",
+        "linkedin": "https://www.linkedin.com/in/ezequielantoine/",
+        "github": "https://github.com/EzAntoine",
+        "portfolio": "https://ezequielantoine.vercel.app/"
+    },
+    {
+        "id": 2,
+        "name": "Rubén Corbalán",
+        "tittle": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/rub%C3%A9n-corbal%C3%A1n-760a06287/",
+        "github": "https://github.com/rubencorba",
+        "portfolio": "https://rubencorbalan.vercel.app/"
+    },
+    {
+        "id": 3,
+        "name": "Sosa Rocio",
+        "tittle": "Full Stack Developer & UX/UI Designer",
+        "linkedin": "https://www.linkedin.com/in/denise-rocio-sosa-bb82b0108/",
+        "github": "https://github.com/DeniseSosa",
+        "portfolio": ""
+    },
+    {
+        "id": 4,
+        "name": "Valentino Jerez",
+        "tittle": "Desarrollador full stack y diseñador UX/UI",
+        "linkedin": "https://www.linkedin.com/in/valentino-jerez-567374281/",
+        "github": "https://github.com/ValentinoJerez",
+        "portfolio": "https://valentinojerez.vercel.app/"
+    }
+
+]

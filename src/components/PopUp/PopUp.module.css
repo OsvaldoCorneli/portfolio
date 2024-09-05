@@ -1,3 +1,4 @@
+
 .contenedor_popUp {
     display: flex;
     margin: 0;
@@ -11,7 +12,7 @@
     z-index: 3;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    
 }
 
 .popUps {
@@ -24,11 +25,12 @@
     color: var(--quaternary-color);
     box-shadow: 2px 2px 2px var(--tertiary-color);
     border-radius: 5px;
-    width: 80%;
-    height: 80%;
+    width: 95%;
+    
     max-width: 540px;
     opacity: 1;
     padding: 16px;
+    
 }
 
 
@@ -39,9 +41,12 @@
     padding: 10px;
     cursor: pointer;
     margin: 1px;
-    width: 90%;
+    width: 100%;
     font-weight: 700;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -76,7 +81,7 @@
     
     width: 100%;
     border: 2px solid rgba(var(--secondary-color-rgb), 0.5);
-    margin: 0 0 36px 0;
+    margin: 0 0 8px 0;
     padding: 16px;
     display: flex;
     justify-content: space-between;
@@ -87,5 +92,29 @@
 }
 
 .popcard_btns{
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    
+}
 
+.popups_btn{
+    margin: 32px 0;
+    width: 100%;
+    justify-self: center;
+
+}
+
+.popcard_btns a svg{
+    color: var(--secondary-color);
+}
+
+.popcard_info{
+    text-align: start;
+    width: 55%;
+}
+
+.btn_desactivado{
+    color: rgba(137, 201, 184, 0.5);
 }
