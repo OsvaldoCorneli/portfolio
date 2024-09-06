@@ -1,5 +1,5 @@
 import style from "./educacion.module.css"
-import CardEducation from "../CardEducation/CardEducation"
+import CardEducation from "../CardEducation/CardEducation.jsx"
 import data from "../../../public/data/education.json"
 import { useState } from "react"
 import { useEffect } from "react"

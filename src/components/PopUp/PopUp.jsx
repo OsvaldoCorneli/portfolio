@@ -1,7 +1,7 @@
 import style from "./PopUp.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons';
-import CardPopUp from "../CardPopUp/CardPopUp";
+import CardPopUp from "../CardPopUp/CardPopUp.jsx";
 import data from "../../../public/data/colegas.json"
 
 function PopUp({ handlerPublicity, setIsHidden }) {

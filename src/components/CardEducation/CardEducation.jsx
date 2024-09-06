@@ -1,5 +1,5 @@
 import style from "./cardeducation.module.css"
-import imagenes from "../../controllers/importarImageneseducacion"
+import imagenes from "../../controllers/importarImageneseducacion.js"
 
 export default function CardEducation(props){
     

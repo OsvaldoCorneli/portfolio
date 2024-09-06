@@ -1,5 +1,5 @@
 import style from "./cardproyect.module.css"
-import importarImagenes from "../../controllers/importarImagenes"
+import importarImagenes from "../../controllers/importarImagenes.js"
 
 
 

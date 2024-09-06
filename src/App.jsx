@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import PopUp from "./components/PopUp/PopUp"
-import Hello from "./components/Hello/Hello"
-import Proyectos from './components/Proyectos/Proyectos'
-import Educacion from './components/Educacion/Educacion'
-import Contacto from './components/Contacto/contacto'
-import ScrollBtn from './components/ScrollBtn/ScrollBtn'
+import PopUp from "./components/PopUp/PopUp.jsx"
+import Hello from "./components/Hello/Hello.jsx"
+import Proyectos from './components/Proyectos/Proyectos.jsx'
+import Educacion from './components/Educacion/Educacion.jsx'
+import Contacto from './components/Contacto/contacto.jsx'
+import ScrollBtn from './components/ScrollBtn/ScrollBtn.jsx'
 
 
 function App() {
