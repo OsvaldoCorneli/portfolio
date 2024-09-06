@@ -1,4 +1,4 @@
-import style from "../PopUp/popup.module.css"
+import style from "../PopUp/PopUp.module.css"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
