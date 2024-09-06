@@ -1,11 +1,14 @@
+import { useEffect, useState } from 'react'
 import style from "./PopUp.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons';
 import CardPopUp from "../CardPopUp/CardPopUp.jsx";
 import data from "../../../public/data/colegas.json"
 
-function PopUp({ handlerPublicity, setIsHidden }) {
+function PopUp() {
 
+    const [ishidden, setIsHidden] = useState(false)
+    
     function handlerBtnCerrar() {
         setIsHidden(false)
         handlerPublicity()
@@ -15,8 +18,28 @@ function PopUp({ handlerPublicity, setIsHidden }) {
         setIsHidden(false)
     }
 
+    function handlerPublicity() {
+
+        setTimeout(() => {
+            setIsHidden(true)
+        }, 60000)
+
+
+    }
+
+    useEffect(() => {
+        handlerPublicity()
+    
+
+    }, [])
+
+
+
     return (
-        <span className={style.contenedor_popUp}>
+        <>
+        { ishidden 
+        
+        ? <span className={style.contenedor_popUp}>
             <div className={style.popUps}>
                 <div className={style.popups_close}>
                     <a className={style.btn_popup} onClick={handlerBtnCerrar} ><FontAwesomeIcon icon={faRectangleXmark} /></a>
@@ -30,32 +53,34 @@ function PopUp({ handlerPublicity, setIsHidden }) {
                 </div>
 
                 {
-                    data.length > 0 
-                    ? data.map((datos)=>(
+                    data.length > 0
+                        ? data.map((datos) => (
 
-                        <CardPopUp 
-                        key={datos.id}
-                        name={datos.name}
-                        tittle={datos.tittle}
-                        linkedin={datos.linkedin}
-                        github={datos.github}
-                        portfolio={datos.portfolio}
-                        
-                        />
+                            <CardPopUp
+                                key={datos.id}
+                                name={datos.name}
+                                tittle={datos.tittle}
+                                linkedin={datos.linkedin}
+                                github={datos.github}
+                                portfolio={datos.portfolio}
+
+                            />
 
 
-                    ))
-                    : ""
+                        ))
+                        : ""
                 }
-                
-                
+
+
 
                 <div className={style.popups_btn}>
                     <a className={style.btn_popup} onClick={handlerBtnNoMolestar}>No volver a mostrar</a>
                 </div>
             </div>
         </span>
-    )
+        : ""
+    } 
+    </>)
 }
 
 export default PopUp;

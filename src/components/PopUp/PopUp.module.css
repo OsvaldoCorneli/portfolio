@@ -12,6 +12,8 @@
     z-index: 3;
     align-items: center;
     justify-content: center;
+    transform: rotate(1);
+ 
     
 }
 
@@ -26,11 +28,8 @@
     box-shadow: 2px 2px 2px var(--tertiary-color);
     border-radius: 5px;
     width: 95%;
-    
     max-width: 540px;
-    opacity: 1;
-    padding: 16px;
-    
+    padding: 16px; 
 }
 
 
@@ -47,6 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 44px;
 
 }
 
@@ -110,11 +110,20 @@
     color: var(--secondary-color);
 }
 
+.popcard_btns a{
+    width: 44px;
+}
+
 .popcard_info{
     text-align: start;
     width: 55%;
+    margin: 4px;
 }
 
 .btn_desactivado{
     color: rgba(137, 201, 184, 0.5);
+}
+
+.popcard_btns span{
+    width: 44px;
 }

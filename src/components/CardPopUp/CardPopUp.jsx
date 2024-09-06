@@ -18,7 +18,7 @@ return(
                      {
                         props.portfolio != ""
                         ?  <a href={props.portfolio} target="_blank"><FontAwesomeIcon icon={faBriefcase} /></a>
-                        : <FontAwesomeIcon icon={faBriefcase} className={style.btn_desactivado}/>   
+                        : <span><FontAwesomeIcon icon={faBriefcase} className={style.btn_desactivado}/></span>   
                      }
                     
                     </div>

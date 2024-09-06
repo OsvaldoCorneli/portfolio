@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './App.css'
 import PopUp from "./components/PopUp/PopUp.jsx"
 import Hello from "./components/Hello/Hello.jsx"
@@ -9,22 +8,6 @@ import ScrollBtn from './components/ScrollBtn/ScrollBtn.jsx'
 
 
 function App() {
-
-  const [ishidden , setIsHidden] = useState(false)
-
-  function handlerPublicity(){
-
-    setTimeout(()=>{
-      setIsHidden(true)
-    },[300000])
-
-    
-  }
-
-  useEffect(()=>{
-    handlerPublicity()
-  },[])
-
 
   return (
     <>
@@ -40,7 +23,7 @@ function App() {
     <Contacto/>
     <ScrollBtn/>
 
-    {ishidden ? <PopUp handlerPublicity={handlerPublicity} setIsHidden={setIsHidden}/> : ""}
+    <PopUp />
     </>
 
   )
