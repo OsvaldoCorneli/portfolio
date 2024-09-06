@@ -1,4 +1,4 @@
-import style from "./Proyectos.module.css"
+import style from "./proyectos.module.css"
 import CardProyect from "../CardProyect/CardProyect.jsx"
 import data from "../../../public/data/proyectos.json"
 import { useState } from "react"
