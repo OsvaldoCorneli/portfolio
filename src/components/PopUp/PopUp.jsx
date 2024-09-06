@@ -8,10 +8,14 @@ import data from "../../../public/data/colegas.json"
 function PopUp() {
 
     const [ishidden, setIsHidden] = useState(false)
-    
+    const [contador , setContador] = useState(10)
+    const [btnFlag , setBtnFlag] = useState(false)
+
     function handlerBtnCerrar() {
         setIsHidden(false)
+        setBtnFlag(false)
         handlerPublicity()
+        console.log("funcion", ishidden, btnFlag)
     }
 
     function handlerBtnNoMolestar() {
@@ -21,17 +25,40 @@ function PopUp() {
     function handlerPublicity() {
 
         setTimeout(() => {
+            setContador(10)
             setIsHidden(true)
-        }, 60000)
-
+        }, 6000)
 
     }
 
     useEffect(() => {
-        handlerPublicity()
+            console.log("contador , ishidden , btnflag", "\n" ,contador , ishidden , btnFlag)
+        if(contador > 0 && ishidden){
+
+            setTimeout(()=>{
+                // console.log("contador", contador)
+                // console.log("desdeSettime flag", btnFlag)
+                let newContador = contador - 1;
+                setContador(newContador)
+            },1000)
+
+        }else if(ishidden){
+            console.log("ingresa al else")
+            setBtnFlag(true)
+        }
+
+
+        console.log("ishidden antes if", ishidden)
+        if( !ishidden){
+            console.log("ishidden desde if", ishidden)
+            handlerPublicity()
+        }
     
 
-    }, [])
+    }, [contador, ishidden])
+
+    
+
 
 
 
@@ -74,7 +101,10 @@ function PopUp() {
 
 
                 <div className={style.popups_btn}>
-                    <a className={style.btn_popup} onClick={handlerBtnNoMolestar}>No volver a mostrar</a>
+                    {btnFlag
+                    ?<a className={style.btn_popup} onClick={handlerBtnNoMolestar}>No volver a mostrar</a>
+                    :<span className={style.btn_popup_span}>No volver a mostrar {contador}</span>
+                    }
                 </div>
             </div>
         </span>

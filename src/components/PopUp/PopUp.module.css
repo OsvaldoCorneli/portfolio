@@ -127,3 +127,18 @@
 .popcard_btns span{
     width: 44px;
 }
+
+.btn_popup_span{
+    background-color: rgba(137, 201, 184, 0.5);;
+    color: var(--primary-color);
+    padding: 10px;
+    cursor: pointer;
+    margin: 1px;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
