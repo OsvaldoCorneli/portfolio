@@ -10,15 +10,18 @@ function PopUp() {
     const [ishidden, setIsHidden] = useState(false)
     const [contador, setContador] = useState(10)
     const [btnFlag, setBtnFlag] = useState(false)
+    const [noMore, setNoMore] = useState(false)
+    const [segundos, setSegundos] = useState(70000)
 
     function handlerBtnCerrar() {
         setIsHidden(false)
         setBtnFlag(false)
-        handlerPublicity()
+        setSegundos(45000)
     }
 
     function handlerBtnNoMolestar() {
         setIsHidden(false)
+        setNoMore(true)
     }
 
     function handlerPublicity() {
@@ -26,7 +29,7 @@ function PopUp() {
         setTimeout(() => {
             setContador(10)
             setIsHidden(true)
-        }, 6000)
+        }, segundos)
 
     }
 
@@ -45,7 +48,7 @@ function PopUp() {
 
 
 
-        if (!ishidden) {
+        if (!ishidden && !noMore) {
             handlerPublicity()
         }
 
