@@ -5,14 +5,14 @@ import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons';
 import CardPopUp from "../CardPopUp/CardPopUp.jsx";
 import data from "../../../public/data/colegas.json"
 
-function PopUp() {
+function PopUp({popupFlag, setPopupFlag}) {
 
     const [ishidden, setIsHidden] = useState(false)
     const [contador, setContador] = useState(10)
     const [btnFlag, setBtnFlag] = useState(false)
     const [noMore, setNoMore] = useState(false)
     const [segundos, setSegundos] = useState(70000)
-
+   
     function handlerBtnCerrar() {
         setIsHidden(false)
         setBtnFlag(false)
@@ -34,7 +34,7 @@ function PopUp() {
     }
 
     useEffect(() => {
-        if (contador > 0 && ishidden) {
+        if (contador > 0 && ishidden ) {
 
             setTimeout(() => {
                 let newContador = contador - 1;
@@ -48,13 +48,24 @@ function PopUp() {
 
 
 
-        if (!ishidden && !noMore) {
+        if (!ishidden && !noMore && !popupFlag) {
+
             handlerPublicity()
+        }
+
+        if(popupFlag){
+            setIsHidden(false)
         }
 
 
     }, [contador, ishidden])
 
+    const handlerpopup = ()=>{
+        setSegundos(70000)
+        setPopupFlag(false)
+        handlerPublicity()
+
+    }
 
 
 
@@ -62,13 +73,18 @@ function PopUp() {
 
     return (
         <>
-            {ishidden
+        
+            {
+            ishidden || popupFlag
 
                 ? <span className={style.contenedor_popUp}>
                     <div className={style.popUps}>
-                        <div className={style.popups_close}>
+                        {!popupFlag 
+                        ?<div className={style.popups_close}>
                             <a className={style.btn_popup} onClick={handlerBtnCerrar} ><FontAwesomeIcon icon={faRectangleXmark} /></a>
                         </div>
+                        : ""
+                        }
                         <div className={style.popups_message}>
                             <h2>Gracias por visitar mi portfolio</h2>
                             <p>Aprecio mucho que te hayas tomado el tiempo para revisar mi trabajo.
@@ -99,15 +115,21 @@ function PopUp() {
 
 
                         <div className={style.popups_btn}>
-                            {btnFlag
-                                ? <a className={style.btn_popup} onClick={handlerBtnNoMolestar}>No volver a mostrar</a>
-                                : <span className={style.btn_popup_span}>No volver a mostrar {contador}</span>
+                            {
+                            !popupFlag
+                            ?   btnFlag
+                                    ? <a className={style.btn_popup} onClick={handlerBtnNoMolestar}>No volver a mostrar</a>
+                                    : <span className={style.btn_popup_span}>No volver a mostrar {contador}</span>
+                            
+                            : <a className={style.btn_popup} onClick={handlerpopup}>Cerrar</a>
+
                             }
+                            
                         </div>
                     </div>
                 </span>
                 : ""
-            }
+                        }
         </>)
 }
 

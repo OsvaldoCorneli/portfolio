@@ -142,3 +142,16 @@
     align-items: center;
     height: 44px;
 }
+
+@media(max-height: 420px){
+
+
+.contenedor_popUp {
+    overflow-y: scroll;
+}
+.popUps{
+    margin-top: 220px;
+
+}
+
+}

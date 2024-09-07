@@ -1,5 +1,4 @@
 import './App.css'
-import PopUp from "./components/PopUp/PopUp.jsx"
 import Hello from "./components/Hello/Hello.jsx"
 import Proyectos from './components/Proyectos/Proyectos.jsx'
 import Educacion from './components/Educacion/Educacion.jsx'
@@ -23,7 +22,7 @@ function App() {
     <Contacto/>
     <ScrollBtn/>
 
-    <PopUp />
+    
     </>
 
   )
