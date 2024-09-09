@@ -5,7 +5,7 @@ import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons';
 import CardPopUp from "../CardPopUp/CardPopUp.jsx";
 import data from "../../../public/data/colegas.json"
 
-function PopUp({popupFlag, setPopupFlag}) {
+function PopUp({popupFlag, setPopupFlag, interruptor}) {
 
     const [ishidden, setIsHidden] = useState(false)
     const [contador, setContador] = useState(10)
@@ -34,7 +34,7 @@ function PopUp({popupFlag, setPopupFlag}) {
     }
 
     useEffect(() => {
-        if (contador > 0 && ishidden ) {
+        if (contador > 0 && ishidden && !interruptor) {
 
             setTimeout(() => {
                 let newContador = contador - 1;
@@ -53,12 +53,12 @@ function PopUp({popupFlag, setPopupFlag}) {
             handlerPublicity()
         }
 
-        if(popupFlag){
+        if(popupFlag || interruptor){
             setIsHidden(false)
         }
 
 
-    }, [contador, ishidden])
+    }, [contador, ishidden, interruptor])
 
     const handlerpopup = ()=>{
         setSegundos(70000)

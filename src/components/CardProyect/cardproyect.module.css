@@ -1,5 +1,4 @@
-
-.contenedor_proyectos{
+.contenedor_proyectos {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -8,20 +7,20 @@
     padding: 16px 8px;
     color: var(--tertiary-color);
     border-radius: 5px;
-    box-shadow: 1px 1px 3px 1px var(--secondary-color) ;
+    box-shadow: 1px 1px 3px 1px var(--secondary-color);
     justify-content: space-around;
 }
 
-.contenedor_proyectos h3{
+.contenedor_proyectos h3 {
     color: var(--titulos-color);
     margin: 0;
 }
 
-.contenedor_proyectos p{
+.contenedor_proyectos p {
     margin: 8px 0 0 0;
 }
 
-.iconos{
+.iconos {
     display: flex;
     margin: 8px 0;
     width: 100%;
@@ -30,21 +29,20 @@
 
 }
 
-.iconos img{
+.iconos img {
     position: relative;
     width: 5%;
     width: 24px;
     margin: 8px 2px;
-    
+
 }
 
-@media(max-width: 380px){
-    .contenedor_proyectos{
+@media(max-width: 380px) {
+    .contenedor_proyectos {
         height: 30%;
     }
-    .iconos img{
+
+    .iconos img {
         width: 7%;
-        
     }
-    
 }

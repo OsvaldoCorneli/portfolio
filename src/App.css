@@ -7,25 +7,14 @@ body{
 
 }
 
-/* .grillas{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    max-width: 540px;
-    height: 100vh;
-    padding: 8px 8px;
-}
 
-.par{
-    background-color: rgba(255, 0, 0, 0.2);
-    margin: 0 8px 0 8px;
-    width: 22%;
-}
+@media ( min-width: 768px){
 
-.impar{
-    background-color: rgba(114, 38, 185, 0.2);
-    margin: 0 8px 0 8px;
-    width: 22%;
-} */
+    body{
+
+        max-width: 1024px;
+
+    }
+
+
+}

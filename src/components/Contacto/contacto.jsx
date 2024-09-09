@@ -12,7 +12,7 @@ export default function Contacto() {
     const email = 'overcorneli' + '@' + 'gmail.com';
     const mailtoLink = `mailto:${email}`;
     const [popupFlag , setPopupFlag] = useState(false)
-    
+    const [interruptor , setInterruptor] = useState(false)
    
     useEffect(()=>{
 
@@ -20,6 +20,7 @@ export default function Contacto() {
 
     function modificaFlag(){
         setPopupFlag(true)
+        setInterruptor(true)
     }
 
     return (
@@ -34,8 +35,8 @@ export default function Contacto() {
             <a className={style.PopUp_btn} onClick={modificaFlag} >¿No soy el perfil que buscas?</a>
             {
             popupFlag
-            ?<PopUp popupFlag={popupFlag} setPopupFlag={setPopupFlag}/>
-            : <PopUp />
+            ?<PopUp popupFlag={popupFlag} setPopupFlag={setPopupFlag} />
+            : <PopUp interruptor={interruptor}/>
             }
         </div>
     )

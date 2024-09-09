@@ -10,12 +10,6 @@ function App() {
 
   return (
     <>
-    {/* <div className='grillas'>
-      <div className='impar'></div>
-      <div className='par'></div>
-      <div className='impar'></div>
-      <div className='par'></div>
-    </div> */}
     <Hello/>
     <Proyectos/>
     <Educacion/>

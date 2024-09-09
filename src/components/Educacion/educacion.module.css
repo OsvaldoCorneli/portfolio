@@ -1,11 +1,24 @@
-.contenedor_educacion{
+.contenedor_educacion {
 
     color: var(--titulos-color);
-    margin: 64px 16px ;
+    margin: 64px 16px;
 
 }
 
-.contenedor_cards{
+.contenedor_cards {
     display: flex;
     flex-direction: column-reverse;
 }
+
+
+@media(min-width: 768px) {
+
+    .contenedor_cards {
+
+        display: grid;
+        grid-template-columns: 49% 49%;
+        gap: 16px;
+    }
+}
+
+

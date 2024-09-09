@@ -1,10 +1,10 @@
-.contenedor_contacto{
-    margin: 32px 16px ; 
+.contenedor_contacto {
+    margin: 32px 16px;
     color: var(--titulos-color);
     max-width: 524px;
 }
 
-.contenedor_inconos_contacto{
+.contenedor_inconos_contacto {
     width: 100%;
     display: flex;
     margin: 64px 0;
@@ -12,20 +12,29 @@
 }
 
 
-.contenedor_inconos_contacto a svg{
+.contenedor_inconos_contacto a svg {
 
     color: var(--quaternary-color);
     font-size: 3.5rem;
     box-shadow: 2px 2px 10px var(--secondary-color)
- }
+}
 
- .contenedor_inconos_contacto a{
-  text-decoration: none;
-  background-color: var(--primary-color)
- }
+.contenedor_inconos_contacto a {
+    text-decoration: none;
+    background-color: var(--primary-color)
+}
 
- .PopUp_btn{
+.PopUp_btn {
     display: flex;
     justify-content: center;
-    text-decoration:underline
- }
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media(min-width: 768px) {
+
+    .contenedor_contacto {
+        max-width: 1024px;
+    }
+}
